@@ -2,6 +2,10 @@
 
 Based on [artice](https://medium.com/google-cloud/solving-the-workload-identity-sameness-with-iam-conditions-c02eba2b0c13) step by step guide how to reproduce conditions based on GKE cluster name. This repo contains minor changes to commands, and some other commands for testing purposes.
 
+> [!WARNING]
+> It is **not official** and supported way to do it in GKE, condider it a "hack" or workaround, which might stop working anytime. 
+
+
 
 ## info
 
