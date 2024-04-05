@@ -183,10 +183,10 @@ version: 3
 ## test with conditions  (expected result no access to cluster `gke-eu-west4` and access to cluster `gke-eu-west6` )
 
 ```
-admin_@cloudshell:~ (matas2222)$ kubectx gke-eu-w4
+kubectx gke-eu-w4
 Switched to context "gke-eu-w4".
 
-admin_@cloudshell:~ (matas2222)$ kubectl run -it \
+kubectl run -it \
 --image google/cloud-sdk:slim \
 --namespace test2 \
 --overrides='{ "spec": { "serviceAccountName": "test2-sa" } }' \
@@ -261,7 +261,7 @@ version: 3
 ```
 kubectx gke-eu-w4
 Switched to context "gke-eu-w4".
-admin_@cloudshell:~ (matas2222)$ kubectl run -it \
+kubectl run -it \
 --image google/cloud-sdk:slim \
 --namespace test2 \
 --overrides='{ "spec": { "serviceAccountName": "test2-sa" } }' \
