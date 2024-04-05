@@ -229,7 +229,7 @@ kubectl delete pod workload-identity-test --force --namespace=test2
 ```
 
 
-# add access to cluster `gke-eu-west4` and test (expected result - both clusters have access)
+## add access to cluster `gke-eu-west4` and test (expected result - both clusters have access)
 
 ```
 gcloud iam service-accounts add-iam-policy-binding \
