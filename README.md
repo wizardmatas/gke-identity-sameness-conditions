@@ -10,6 +10,9 @@ I will use two clusters in different regions `gke-eu-west4` and `gke-eu-west6` ,
 ## Create clusters:
 
 ```
+
+export PROJECT_ID=matas2222
+
 gcloud beta container clusters create gke-eu-west4 \
 --project ${PROJECT_ID} \
 --region europe-west4 \
